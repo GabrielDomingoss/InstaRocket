@@ -5,6 +5,7 @@ const cors = require('cors');
 const app = express();
 const server = require('http').Server(app);
 const io = require('socket.io')(server);
+//testes 
 mongoose.connect('mongodb+srv://dbRocket:Rocket321@g@cluster0.nm8xn.mongodb.net/<dbname>?retryWrites=true&w=majority',{
     useNewUrlParser:true,
     useUnifiedTopology: true
